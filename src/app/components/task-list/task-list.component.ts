@@ -27,4 +27,7 @@ export class TaskListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  deleteTask(task:ITask) {
+    alert(`Se procede a eliminar la tarea ${task.title}`)
+  }
 }
